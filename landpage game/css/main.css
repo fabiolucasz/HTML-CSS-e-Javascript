@@ -1,0 +1,317 @@
+.body{
+    width:100%;
+    margin: 10%;
+    margin-top: 5%;
+    background-color: #ff6bb3;
+    padding-right: 10%;
+    overflow: hidden;
+    
+}
+
+.principal {
+    width: 80%;
+    height: 560px;
+    background-color: #ffffff;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 1%;
+    margin-bottom: -24px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    list-style: none;
+    padding: 0px auto;
+    margin-left: 4%;
+    width: 52%;
+    height: 40px;
+    border: 3px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    border-radius: 30px;
+}
+
+nav ul li{ 
+    display: inline-block;
+    padding:10px;
+    text-align: left;
+    width: 100%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+
+}
+
+nav ul li a:hover{
+    color: #ff6bb3;
+    
+}
+.listra1::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 447px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    background-image: url('../img/listra.png');
+}
+.listra2::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 447px;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    background-image: url('../img/listra.png');
+}
+
+.pontilhado1::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 447px;
+    background-size: 54%;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    margin-left: 1.1%;
+    background-image: url('../img/pontilhadovertical.png');
+}
+
+.cerquilha1::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 513px;
+    height: 447px;
+    background-size: 64%;
+    background-repeat: no-repeat;
+    margin-top: 19.5%;
+    background-image: url('../img/fundoControle.png');
+}
+
+.cerquilha2::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 513px;
+    height: 447px;
+    margin-left: 55.5%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    margin-top: -5.5%;
+    background-image: url('../img/fundoControle.png');
+}
+
+.games::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 281px;
+    height: 72px;
+    margin-left: 58%;
+    margin-top: -2%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-image: url('../img/games.png');
+}
+
+.main{
+display: flex;
+margin-top: 4%;
+}
+
+.imagem1 {
+    position: relative;
+    width: 60.5%;
+    height: 360px;
+    margin-left: 20%;
+}
+
+.coracao::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 39%;
+    height: 72px;
+    margin-left: -72.6%;
+    margin-top: 8%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-image: url(../img/coracao.png);
+}
+
+.estrela::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 39%;
+    height: 72px;
+    margin-left: -73.6%;
+    margin-top: 47%;
+    background-size: 31%;
+    background-repeat: no-repeat;
+    background-image: url(../img/estrela.png);
+}
+
+.start::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 35%;
+    height: 72px;
+    margin-left: -77.6%;
+    margin-top: 88%;
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-image: url('../img/start.png');
+}
+
+.content2 {
+    display: inline-block;
+    position: relative;
+    background-color: white;
+    width: 70%;
+    height: 295px;
+    margin-top: 1.5%;
+    margin-right: 4%;
+    border: 3px solid black;
+    border-bottom: 12px solid black;
+    border-right: 12px solid black;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.content2 h1 {
+    font-size: 
+}
+.content2 p {
+    font-size:
+    margin-top: 28%;
+}
+
+
+.joinus, .readmore{
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+}
+
+.joinus:hover, .readmore:hover{
+    background-color: #ff6bb3;
+    border: 2px solid black;
+    color: #ffffff;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.coroa::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 72px;
+    margin-left: 54.5%;
+    margin-top: 1.5%;
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-image: url('../img/coroa.png');
+}
+
+.pontilhado2::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 40%;
+    height: 72px;
+    margin-left: 63.5%;
+    margin-top: 4.5%;
+    background-size: 13%;
+    background-repeat: no-repeat;
+    background-image: url('../img/pontilhadohorizontal.png');
+}
+
+.raio::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 9%;
+    height: 72px;
+    margin-left: 73.5%;
+    margin-top: 0.7%;
+    background-size: 23%;
+    background-repeat: no-repeat;
+    background-image: url('../img/raio.png');
+}
+
+.footer {
+    position: relative;
+    width: 35.5%;
+    height: 50px;
+    background-color: #ff6bb3;
+    display:flex;
+    border: 3px solid black;
+    border-bottom: 8px solid black;
+    border-right: 8px solid black;
+    border-radius: 35px;
+    margin-left: 12%;
+    color: white;
+    margin-top: 1%;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+    padding-right: 3%; 
+}
+.footer ul li{
+    display: flex; 
+    cursor: pointer;
+    padding-right: 4%;
+    
+}
+
+.footer img {
+    width: 100%;
+}
+
+.footer p{
+    font-size: ;
+}
+
+hr{
+    border-color: black;
+    margin-left: 0%;
+    margin-right: 4%;
+    margin-top: 2%;
+    height: 40px;
+}
+
+.sitegame{
+    text-decoration: none;
+    color: white;
+}
+
+
