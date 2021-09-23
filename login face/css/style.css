@@ -1,0 +1,152 @@
+* {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    padding: 0%;
+    margin: 0%;
+
+}
+header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    max-width: 1280px;
+    min-width: 500px;
+    height: 750px;
+    background-color: #f0f2f5;
+    align-items: center;
+}
+
+#hero{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #f0f2f5;
+    margin-top: -274px;
+    
+}
+
+#hero img{
+    width: 301.07px;
+    height: 106px;
+    margin: -28px;
+    margin-top: -14px;
+    margin-bottom: -14px;
+}
+
+h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: normal;
+    margin-left: -45px;
+    line-height: 32px;
+    width: 500px;
+}
+
+#formulario {
+    max-width: 396px;
+    text-align: center;
+    height: 320.17px;
+    background-color: white;
+    padding: 20px;
+    margin: -169px 20px 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 12px 18px 0px #B1B3B5; 
+    box-shadow: 0px 12px 50px 0px #B1B3B5;
+}
+
+#emailId, #senhaId, #entrar{
+    font-size: 17px;
+    width: 330px;
+    height: 52px;
+    padding-left:29px;
+    margin-bottom: 12px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+#entrar{
+    color: white;
+    padding: 0px 16px;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+
+#redefinirSenha{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    color: #1877F2;
+    font-size: 14px;
+    margin-top: 6px;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+#novaConta{
+    display: inline-block;
+    justify-content: center;
+    font-size: 17px;
+    color: white;
+    width: 168.56px;
+    height: 50.5px;
+    padding: 14px 16px;
+    margin-top: 25px;
+    background-color: #36a420;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#criarPagina{
+    position: absolute;
+    vertical-align: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 577px;
+    margin-top: 234px;
+    
+}
+
+#criarPagina a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+#linguagens ul li{
+    display: inline-flex;
+}
+
+#linguagens ul li a, #servicos ul li a{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+#serv li{
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    margin-bottom: 10px;  
+}
