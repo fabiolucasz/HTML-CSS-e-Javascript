@@ -1,62 +1,67 @@
-body {
-    padding: 0;
-    margin: 0;
+body{
+    padding:0;
+    margin:0;
+    background-color:#C30
 }
 
-form {
-    font-family: Verdana,Tahoma,sans-serif;
-    font-size: 15px;
-    background-color: #CC3300;
-    max-width: 500px;
+form{
+    font-family:Verdana,Tahoma,sans-serif;
+    font-size:15px;
+    background-color:#C30;
+    max-width:500px;
+    position:relative;
+    left:30%;top:30%;
+    -webkit-box-shadow:0 0 34px 10px rgba(0,0,0,0.3);
+    -moz-box-shadow:0 0 34px 10px rgba(0,0,0,0.3);
+    box-shadow:0 0 34px 10px rgba(0,0,0,0.3)
 }
 
-h1 {
-    margin-bottom: 20px;
-    margin-left: 20px;
-    color: #66FFFF;
-    text-shadow: 5px 5px 5px black;
+h1{
+    margin-bottom:20px;
+    margin-left:20px;
+    color:#6FF;
+    text-shadow:5px 5px 5px #000;
+    text-align:center
 }
 
-input, textarea {
-    width: 200px;
-    padding: 10px;
-    color: black;
-    margin-left: 20px;
-    margin-top: 10px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
+input,textarea{
+    width:200px;
+    padding:10px;
+    color:#000;
+    margin-left:20px;
+    margin-top:10px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border:1px solid
+}
+input:hover,textarea:hover,input:focus,textarea:focus{
+    border-color:#006;
+    box-shadow:5px 0 9px #FF0;
+    background-color:#6FF;
+    color:#000;
+    font-weight:700
+}
+.enviar{
+    background-color:#6FF;
+    height:40px;
+    width:100px;
+    font-weight:700;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border:1px solid;
+    color:#000
 }
 
-input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
-    background-color: #66FFFF;
-    color: black;
-    font-weight: bold;
+textarea{
+    width:400px;
+    height:120px;
+    line-height:20px;
+    max-width:400px
 }
 
-.enviar {
-    background-color: #66FFFF;
-    height: 40px;
-    width: 100px;
-    font-weight: bold;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
-    color: black;
-}
-
-textarea {
-    width: 400px;
-    height: 120px;
-    line-height: 20px;
-    max-width: 400px;
-}
-
-form label {
-    margin-left: 20px;
-    color: #FFFFFF;
-    font-weight: bold;
+form label{
+    margin-left:20px;
+    color:#FFF;
+    font-weight:700
 }
